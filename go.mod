@@ -1,4 +1,4 @@
-module github.com/jspaleta/sensu_namespace_copy
+module github.com/jspaleta/sensu-namespace-copy
 
 go 1.13
 

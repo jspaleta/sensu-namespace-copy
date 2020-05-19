@@ -10,13 +10,9 @@ import (
 	"github.com/sensu-community/sensu-plugin-sdk/sensu"
 	"github.com/sensu/sensu-go/api/core/v2"
 	"gopkg.in/yaml.v2"
-	//"strings"
-	//"github.com/sensu/sensu-go/types"
 	"io/ioutil"
 	"log"
 	"net/http"
-	//"reflect"
-	//	"os"
 )
 
 type Config struct {

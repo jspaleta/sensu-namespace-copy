@@ -13,7 +13,7 @@ behavior of this sensuctl plugin.
 
 When writing or updating a plugin's README from this template, review the Sensu Community
 [plugin README style guide][3] for content suggestions and guidance. Remove everything
-prior to `# namespace_copy` from the generated README file, and add additional context about the
+prior to `# namespace-copy` from the generated README file, and add additional context about the
 plugin per the style guide.
 
 ## Releases with Github Actions
@@ -24,7 +24,7 @@ the plugin with goreleaser. Register the asset with [Bonsai][8] to share it with
 
 ***
 
-# namespace_copy
+# namespace-copy
 
 ## Table of Contents
 - [Overview](#overview)
@@ -39,7 +39,7 @@ the plugin with goreleaser. Register the asset with [Bonsai][8] to share it with
 
 ## Overview
 
-The namespace_copy is a [Sensu CLI][6] tool (`sensuctl`) that ...
+The namespace-copy is a [Sensu CLI][6] tool (`sensuctl`) that ...
 
 ## Files
 
@@ -54,10 +54,10 @@ consider doing so! If you're using sensuctl 5.13 with Sensu Backend 5.13 or late
 following command to add the asset:
 
 ```
-sensuctl asset add jspaleta/sensu_namespace_copy
+sensuctl asset add jspaleta/sensu-namespace-copy
 ```
 
-If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index][https://bonsai.sensu.io/assets/jspaleta/sensu_namespace_copy].
+If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index][https://bonsai.sensu.io/assets/jspaleta/sensu-namespace-copy].
 
 ### Resource definition
 
@@ -67,7 +67,7 @@ The preferred way of installing and deploying this plugin is to use it as an Ass
 like to compile and install the plugin from source or contribute to it, download the latest version
 or create an executable script from this source.
 
-From the local path of the sensu_namespace_copy repository:
+From the local path of the sensu-namespace-copy repository:
 
 ```
 go build
